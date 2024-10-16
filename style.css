@@ -1,0 +1,42 @@
+#banderas {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.buscador{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    width: 400px;
+    height: 40px;
+}
+
+.tarjeta {
+    width: 314.2px;
+    margin: 20px;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+
+.tarjeta:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.tarjeta img {
+    width: 314.2px;
+    border-radius: 10px;
+}
+
+.tarjeta p {
+    display: flex;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
